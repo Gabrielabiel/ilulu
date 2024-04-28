@@ -1,0 +1,274 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+header {
+    background-color: #163f75;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+article {
+    text-align: center;
+}
+.logo img {
+    height: 70px; /* Adjust the height as needed */
+    margin-left: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 35px;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75%;
+    margin: 0 auto; 
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.banner {
+    max-width: 30%;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    margin-top: 10px; /* Add margin to the top of the image */
+}
+
+
+
+
+.sub-title {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+}
+
+input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+.services-section {
+
+    padding: 40px;
+    margin-bottom: 100px;
+}
+/* Other styles... */
+
+footer {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: #163f75;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style footer navigation */
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav ul li:last-child {
+    margin-right: 0;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Other styles... */
+
+
+.home-page h1 {
+    font-size: 2.5em;
+    margin-top: 50px; /* Adjust the margin-top value for the home page */
+    color: #555;
+}
+.about-page h1 {
+    font-size: 2.5em;
+    margin-top: 80px; /* Adjust the margin-top value for the about us page */
+    color: #555;
+}
+
+
+section {
+    padding: 40px; /* Add padding to sections */
+    margin-bottom: 40px; /* Add margin between sections */
+    background-color: #fff; /* Add background color to sections */
+    border-radius: 10px; /* Add border radius to sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow to sections */
+}
+
+h2 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #163f75;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #29568f;
+}
+/* Apply styling to separate content sections */
+.services-page .content {
+    padding: 40px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style section headings */
+.services-page .content h2 {
+    color: #163f75;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Style section paragraphs */
+.services-page .content p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Style navigation links */
+.services-page header nav ul li a {
+    color: #163f75;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style footer navigation */
+.services-page footer nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #163f75;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.services-page footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.services-page footer nav ul li:last-child {
+    margin-right: 0;
+}
+
+
+/* contact form */
+.contact-page .content form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-page .content form label {
+    display: block;
+    margin-bottom: 5px;
+}
+.contact-page .content h2 {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 50px; 
+}
+.contact-page .content p {
+    margin-bottom: 20px;
+    color: #555;
+}
+.contact-page .content form input,
+.contact-page .content form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-page .content form button {
+    padding: 10px 20px;
+    background-color: #163f75;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-page .content form button:hover {
+    background-color: #29568f;
+}
+/* contact form */

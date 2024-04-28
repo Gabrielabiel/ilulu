@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>IlluminatePro</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/icon.ico" alt="IlluminatePro logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <body class="home-page">
+        <article class="center-content">
+
+            <div class="content">
+                <img src="images/laptop.jpg" class="banner" alt="WebServiceX" />
+                <h1>Welcome to IlluminatePro</h1>
+                <p class="sub-title">
+                    Bringing Light to Your World!
+                </p>
+                <iframe title="myreport" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=dfd654c0-1781-4679-ad49-fb0f56d85106&autoAuth=true&ctid=3d1cee9c-8bf0-4375-b5b9-5c0315d1187e" frameborder="0" allowFullScreen="true"></iframe>
+                <form id="contactForm" action="submit.php" method="post">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="error" class="error">Please enter a valid email address.</p>
+            </div>
+            <div class="services-section" style="background-color: #f5f5f5;">
+                <h2>Our Services</h2>
+                <p><b>Home Lighting Solutions:</b> Provide customized lighting solutions for homes, including smart lighting systems, energy-efficient LED installations, and ambient lighting designs tailored to the client's preferences.</p>
+                <button onclick="location.href='about.html'">Find Out About Us</button>
+            </div>
+            <div class="services-section" style="background-color: #ebebeb;">
+                <h2>Why Choose Us</h2>
+                <p><b>Quality:</b> We partner with leading manufacturers and suppliers to source high-quality products and components, ensuring the reliability, durability, and performance of our Light Control Systems.</p>
+                <button onclick="location.href='about.html'">Learn More</button>
+            </div>
+        </article>
+    </body>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
